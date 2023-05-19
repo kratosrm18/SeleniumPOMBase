@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>standard</theme>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+        <documentTitle>Incubator</documentTitle>
+        <reportName>Intranet Bundle Automation</reportName>
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <scripts>
+            <![CDATA[$(document).ready(function() {});]]>
+        </scripts>
+
+        <styles>
+            <![CDATA[]]>
+        </styles>
+    </configuration>
+</extentreports>
