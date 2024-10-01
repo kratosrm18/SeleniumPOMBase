@@ -11,6 +11,7 @@ public class PageObjectManager {
     public ListarMascotasPage listarMascotasPage;
     public EliminarMascotaPage eliminarMascotaPage;
     public ActualizarMascotaPage actualizarMascotaPage;
+    public InnovaPage innovaPage;
 
     public PageObjectManager(WebDriver driver) {
         this.driver = driver;
@@ -39,5 +40,10 @@ public class PageObjectManager {
     public ActualizarMascotaPage getActualizarMascotasPage() {
         actualizarMascotaPage = new ActualizarMascotaPage(driver);
         return actualizarMascotaPage;
+    }
+
+    public InnovaPage getInnovaPage() {
+        innovaPage = new InnovaPage(driver);
+        return innovaPage;
     }
 }

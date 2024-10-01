@@ -26,6 +26,7 @@ public class TestBase {
         if (driver == null) {
             if (prop.getProperty("browser").equalsIgnoreCase("chrome")) {
                 WebDriverManager.chromedriver().setup();
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Kratos\\Documents\\KALIN\\OKTANA\\chamba\\PetStore\\src\\test\\resources\\chromedriver.exe");
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments ("--disable-notifications");
                 chromeOptions.addArguments("--remote-allow-origins=*");

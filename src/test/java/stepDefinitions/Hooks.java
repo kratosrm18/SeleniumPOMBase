@@ -20,6 +20,6 @@ public class Hooks {
 
     @After
     public void AfterScenario() throws IOException {
-        testContextSetup.testBase.WebDriverManager().close();
+        //testContextSetup.testBase.WebDriverManager().close();
     }
 }

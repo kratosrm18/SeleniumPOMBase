@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40df75db-f37b-405e-b00d-e4fc717a34fd" name="Changes" comment="" />
+    <list default="true" id="40df75db-f37b-405e-b00d-e4fc717a34fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/felipe.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/InnovaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/MyStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/globalProperties/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/globalProperties/global.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/globalProperties/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/globalProperties/global.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/PageObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/TestBase.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +101,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -102,14 +119,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Kratos/Downloads",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kratos/Downloads&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kratos\Documents\KALIN\OKTANA\chamba\PetStore\src\test\resources" />
@@ -122,16 +139,21 @@
       <recent name="pageObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: CP10 - Usuario quiere actualizar datos de una mascota">
-    <configuration name="Scenario: CP01 - Usuario quiere ver la lista de mascotas filtrada por un determinado tag" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: ">
+    <configuration name="Scenario: CP02 - Usuario quiere agregar una nueva mascota a la tienda con valores por defecto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/listaMascotas.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/crearMascota.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="PetStore" />
-      <option name="NAME_FILTER" value="^CP01 \- Usuario quiere ver la lista de mascotas filtrada por un determinado tag$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CP01 \- Usuario quiere ver la lista de mascotas filtrada por un determinado tag$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CP01 - Usuario quiere ver la lista de mascotas filtrada por un determinado tag" />
+      <option name="NAME_FILTER" value="^CP02 \- Usuario quiere agregar una nueva mascota a la tienda con valores por defecto$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CP02 \- Usuario quiere agregar una nueva mascota a la tienda con valores por defecto$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CP02 - Usuario quiere agregar una nueva mascota a la tienda con valores por defecto" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -163,15 +185,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: CP03 - Usuario quiere actualizar datos de una mascota" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: CP04 - Usuario quiere eliminar una mascota" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/actualizarMascota.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/eliminarMascota.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="PetStore" />
-      <option name="NAME_FILTER" value="^CP03 \- Usuario quiere actualizar datos de una mascota$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CP03 \- Usuario quiere actualizar datos de una mascota$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CP03 - Usuario quiere actualizar datos de una mascota" />
+      <option name="NAME_FILTER" value="^CP04 \- Usuario quiere eliminar una mascota$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CP04 \- Usuario quiere eliminar una mascota$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CP04 - Usuario quiere eliminar una mascota" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -183,15 +205,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: CP09 - Usuario quiere actualizar datos de una mascota (con valores personalizados)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: scraping con selenium" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/actualizarMascota.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/felipe.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="PetStore" />
-      <option name="NAME_FILTER" value="^CP09 \- Usuario quiere actualizar datos de una mascota \(con valores personalizados\)$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CP09 \- Usuario quiere actualizar datos de una mascota \(con valores personalizados\)$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CP09 - Usuario quiere actualizar datos de una mascota (con valores personalizados)" />
+      <option name="NAME_FILTER" value="^scraping con selenium$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^scraping con selenium$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: scraping con selenium" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -203,15 +225,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: CP10 - Usuario quiere actualizar datos de una mascota" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/actualizarMascota.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="PetStore" />
-      <option name="NAME_FILTER" value="^CP10 \- Usuario quiere actualizar datos de una mascota$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CP10 \- Usuario quiere actualizar datos de una mascota$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CP10 - Usuario quiere actualizar datos de una mascota" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CP03 \- Usuario quiere actualizar datos de una mascota \(con valores por defecto\)$&quot; --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -236,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: CP10 - Usuario quiere actualizar datos de una mascota" />
-        <item itemvalue="Cucumber Java.Scenario: CP09 - Usuario quiere actualizar datos de una mascota (con valores personalizados)" />
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Scenario: CP03 - Usuario quiere actualizar datos de una mascota (con valores por defecto)" />
-        <item itemvalue="Cucumber Java.Scenario: CP01 - Usuario quiere ver la lista de mascotas filtrada por un determinado tag" />
-        <item itemvalue="Cucumber Java.Scenario: CP03 - Usuario quiere actualizar datos de una mascota" />
+        <item itemvalue="Cucumber Java.Scenario: scraping con selenium" />
+        <item itemvalue="Cucumber Java.Scenario: CP04 - Usuario quiere eliminar una mascota" />
+        <item itemvalue="Cucumber Java.Scenario: CP02 - Usuario quiere agregar una nueva mascota a la tienda con valores por defecto" />
       </list>
     </recent_temporary>
   </component>
